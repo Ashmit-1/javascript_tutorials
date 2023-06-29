@@ -33,3 +33,10 @@ console.log(`The value of x2 is ${x2}`); // This is the way to get both a string
 
 const fish = ["Lion", , "Angel"];
 console.log(fish) // This gives [ 'Lion', <1 empty item>, 'Angel' ] as output
+
+let str1 = "Ashmit"
+let str2 = " is"
+let str3 = " learning"
+let str4 = " JavaScript"
+let str5 = str1 + str2 + str3 + str4
+console.log(`The complete string is ${str5}`)
