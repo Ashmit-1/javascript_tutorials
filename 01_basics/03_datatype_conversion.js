@@ -40,3 +40,13 @@ let str3 = " learning"
 let str4 = " JavaScript"
 let str5 = str1 + str2 + str3 + str4
 console.log(`The complete string is ${str5}`)
+
+
+let userOne = {
+    name : "Ashmit Das",
+    email : "ashmit@google.com",
+    college : "VIT",
+    age : 18
+}
+
+console.log(userOne.age);
