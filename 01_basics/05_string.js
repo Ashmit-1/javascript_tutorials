@@ -30,3 +30,42 @@ console.log(String.fromCharCode(65, 66, 67));
 let testStringThree = String.fromCharCode(97, 98, 99)
 console.log(testStringThree);
 
+//includes() is used to see weather a particular character or set of character is part of the specified string or not.
+
+console.log(testString.includes("world")); // this will give true as output 
+console.log(testString.includes("earth")); // this will give false as output
+
+// trim deletes the extra spaces within a string
+
+let testStringFour = new String("     Jai    Hind   ")
+console.log(testStringFour);             //desired output: [String: '     Jai    Hind   ']
+console.log(testStringFour.trim());
+console.log(testStringFour.valueOf());  //desired output:      Jai    Hind  
+
+
+// toUpperCase() turns a string of lower case to upper case
+
+console.log(testString.toUpperCase());
+console.log(testStringTwo.toUpperCase());
+console.log(testStringThree.toUpperCase());
+console.log(testStringFour.toUpperCase());
+
+
+// toLowerCase() turns a string of lower case to upper case
+
+console.log(testString.toLowerCase());
+console.log(testStringTwo.toLowerCase());
+console.log(testStringThree.toLowerCase());
+console.log(testStringFour.toLowerCase());
+
+// this returns the specified string value only
+
+console.log(testStringFour.toString());
+ 
+// The substring() method returns the part of the string from the start index up to and excluding the end index, or to the end of the string if no end index is supplied.
+
+console.log(testStringTwo.substring(2,5));
+console.log(testStringTwo.substring(5));
+
+
+
