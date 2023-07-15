@@ -21,5 +21,10 @@ console.log(myArr);
 // myArr.shift()
 // console.log(myArr);
 // console.log(myArr.length);
+// console.log(myArr.includes(23));
+// console.log(myArr.indexOf(23));
+// console.log(myArr.reverse());
+// console.log(myArr.join(' - '));
+
 
 

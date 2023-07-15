@@ -66,6 +66,17 @@ console.log(testStringFour.toString());
 
 console.log(testStringTwo.substring(2,5));
 console.log(testStringTwo.substring(5));
+let myString = 'MADAM'
+// console.log(myString)
+// let myStringSplitted = myString.split("")
+// console.log(myStringSplitted)
+// let myStringSplittedAndReversed = myStringSplitted.reverse()
+// console.log(myStringSplittedAndReversed)
+// let reversedString = myStringSplittedAndReversed.join("")
+// console.log(reversedString);
+let reversedStr = myString.split('').reverse().join('')
+console.log(reversedStr);
+// console.log(typeof reversedStr);
 
 
 
