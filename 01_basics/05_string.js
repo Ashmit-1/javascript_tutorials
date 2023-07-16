@@ -78,5 +78,8 @@ let reversedStr = myString.split('').reverse().join('')
 console.log(reversedStr);
 // console.log(typeof reversedStr);
 
+console.log(Array.from("world").reverse().join(""));
+
+
 
 

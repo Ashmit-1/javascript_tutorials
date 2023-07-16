@@ -25,6 +25,18 @@ console.log(myArr);
 // console.log(myArr.indexOf(23));
 // console.log(myArr.reverse());
 // console.log(myArr.join(' - '));
+// console.log(myArr.slice(1,3));
+// console.log(myArr);
+
+// console.log(myArr.splice(3,5));
+// console.log(myArr);
+
+// console.log(myArr.slice(0,2));
+// console.log(myArr);
+
+
+
+
 
 
 
