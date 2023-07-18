@@ -5,8 +5,7 @@ function addition (num1, num2){
     
 console.log(addition(1,23));
 
-function num (...n1)
-{
+function num (...n1){
     return n1
 }
 console.log(num(100, 200, 300, 690));
