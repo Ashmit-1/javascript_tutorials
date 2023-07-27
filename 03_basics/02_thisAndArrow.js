@@ -20,3 +20,12 @@ console.log(reverseString("timhsA"));
 
 const lengthOfArray = (inputArray) => (inputArray.length)
 console.log(lengthOfArray(userDetails.logInDays));
+
+function addIndefinite() {
+    let total = 0
+    for (let index = 0; index < arguments.length; index++) {
+        total = total + arguments[index];
+    }
+    return total;
+}
+console.log(addIndefinite(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
